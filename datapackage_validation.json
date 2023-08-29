@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.234,
+  "time": 0.293,
   "errors": [],
   "tasks": [
     {
@@ -65,13 +65,13 @@
         },
         "scheme": "file",
         "stats": {
-          "hash": "f9278e2e87fe03d405af4c74fb1337d4",
-          "bytes": 17238,
+          "hash": "b2d060abef6d29e6f7f7e994a907b17d",
+          "bytes": 17552,
           "fields": 5,
-          "rows": 279
+          "rows": 284
         }
       },
-      "time": 0.043,
+      "time": 0.051,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -167,13 +167,13 @@
         },
         "scheme": "file",
         "stats": {
-          "hash": "d84cecfcbcb29047b86270c54d624e8d",
-          "bytes": 97307,
+          "hash": "c66e7f7ec4b97ab2f208b9cd9a424754",
+          "bytes": 111963,
           "fields": 6,
-          "rows": 605
+          "rows": 554
         }
       },
-      "time": 0.052,
+      "time": 0.07,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -267,13 +267,13 @@
         },
         "scheme": "file",
         "stats": {
-          "hash": "422e5bfff50b297aac0db4f596699ee7",
-          "bytes": 7581,
+          "hash": "72107e54742965b63f3ff5c836e33697",
+          "bytes": 7689,
           "fields": 5,
-          "rows": 194
+          "rows": 195
         }
       },
-      "time": 0.037,
+      "time": 0.047,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -469,13 +469,13 @@
         },
         "scheme": "file",
         "stats": {
-          "hash": "ca4480b80f1485eea2a96331394111d6",
-          "bytes": 34799,
+          "hash": "cd5d62f47d1d665785f28bd60985678b",
+          "bytes": 35186,
           "fields": 15,
-          "rows": 59
+          "rows": 60
         }
       },
-      "time": 0.03,
+      "time": 0.036,
       "scope": [
         "hash-count-error",
         "byte-count-error",
