@@ -9,5 +9,5 @@ abas = {
         'relatorios',
         'repasses',
 		 'termo-parceria-contrato-gestao'
-     ],
+     ]
 }
