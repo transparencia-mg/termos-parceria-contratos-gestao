@@ -2,10 +2,9 @@
 
 Saiba como contribuir com a documentação deste conjunto de dados!
 
-A documentação deste conjunto de dados está sendo feita de forma aberta e colaborativa no [Github](https://github.com/). Existem duas alternativas para enviar sua contribuição:
+A documentação deste conjunto de dados está sendo feita de forma aberta e colaborativa no [Github](https://github.com/). Para enviar sua contribuição:
 
-- [Issues](https://github.com/dados-mg/termos-parceria-contratos-gestao/issues): Para iniciar uma discussão sobre melhorias na documentação.
-- [Pull requests](https://github.com/dados-mg/termos-parceria-contratos-gestao/pulls): Para sugerir uma alteração concreta na documentação.
+- [Pull requests](https://github.com/transprencia-mg/termos-parceria-contratos-gestao/pulls): Para sugerir uma alteração concreta na documentação.
 
 Todas as contribuições são bem vindas. Alguns exemplos são:
 
