@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.23,
+  "time": 0.192,
   "errors": [],
   "tasks": [
     {
@@ -65,13 +65,13 @@
         },
         "scheme": "file",
         "stats": {
-          "hash": "48ed08acec5fbded42f00fd5fc8d6bb8",
-          "bytes": 17552,
+          "hash": "b9bc4c418921d0ed4a7cf5386a3b7b24",
+          "bytes": 19742,
           "fields": 5,
-          "rows": 284
+          "rows": 303
         }
       },
-      "time": 0.042,
+      "time": 0.034,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -223,10 +223,140 @@
           "note": "",
           "message": "Label \"observacoes\" in field OBSERVACOES at position \"5\" does not match the field name in the schema",
           "description": "One of the data source header does not match the field name defined in the schema."
+        },
+        {
+          "cell": "Não publicado.",
+          "fieldName": "URL_DOCUMENTO",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "CG_002/2019",
+            "Termo de Apostilamento",
+            "7º Termo de Apostilamento",
+            "Não publicado.",
+            ""
+          ],
+          "rowNumber": 20,
+          "rowPosition": 21,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"string/uri\"",
+          "message": "Type error in the cell \"Não publicado.\" in row \"21\" and field \"URL_DOCUMENTO\" at position \"4\": type is \"string/uri\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "Termo de Apostilamento CANCELADO (aparece como apagado no processo SEI nº 2180.01.0000214/2020-46).",
+          "fieldName": "URL_DOCUMENTO",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
+          "cells": [
+            "CG_002/2019",
+            "Termo de Apostilamento",
+            "8º Termo de Apostilamento",
+            "Termo de Apostilamento CANCELADO (aparece como apagado no processo SEI nº 2180.01.0000214/2020-46).",
+            ""
+          ],
+          "rowNumber": 22,
+          "rowPosition": 23,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"string/uri\"",
+          "message": "Type error in the cell \"Termo de Apostilamento CANCELADO (aparece como apagado no processo SEI nº 2180.01.0000214/2020-46).\" in row \"23\" and field \"URL_DOCUMENTO\" at position \"4\": type is \"string/uri\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cells": [
+            "ID_INSTRUMENTO",
+            "TIPO_DOCUMENTO",
+            "DOCUMENTO",
+            "URL_DOCUMENTO",
+            "OBSERVACOES"
+          ],
+          "rowNumber": 63,
+          "rowPosition": 64,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "not found in the lookup table",
+          "message": "Row at position \"64\" violates the foreign key: not found in the lookup table",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "ID_INSTRUMENTO",
+            "TIPO_DOCUMENTO",
+            "DOCUMENTO",
+            "URL_DOCUMENTO",
+            "OBSERVACOES"
+          ],
+          "rowNumber": 64,
+          "rowPosition": 65,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "not found in the lookup table",
+          "message": "Row at position \"65\" violates the foreign key: not found in the lookup table",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "ID_INSTRUMENTO",
+            "TIPO_DOCUMENTO",
+            "DOCUMENTO",
+            "URL_DOCUMENTO",
+            "OBSERVACOES"
+          ],
+          "rowNumber": 302,
+          "rowPosition": 303,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "not found in the lookup table",
+          "message": "Row at position \"303\" violates the foreign key: not found in the lookup table",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "ID_INSTRUMENTO",
+            "TIPO_DOCUMENTO",
+            "DOCUMENTO",
+            "URL_DOCUMENTO",
+            "OBSERVACOES"
+          ],
+          "rowNumber": 303,
+          "rowPosition": 304,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "not found in the lookup table",
+          "message": "Row at position \"304\" violates the foreign key: not found in the lookup table",
+          "description": "Values in the foreign key fields should exist in the reference table"
         }
       ],
       "stats": {
-        "errors": 5
+        "errors": 11
       },
       "valid": false
     },
@@ -298,13 +428,13 @@
         },
         "scheme": "file",
         "stats": {
-          "hash": "e41e584caf977951b76de876044e4d91",
-          "bytes": 112618,
+          "hash": "55bda016aeb8078f22292529b4ee129e",
+          "bytes": 120098,
           "fields": 6,
-          "rows": 554
+          "rows": 605
         }
       },
-      "time": 0.048,
+      "time": 0.043,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -561,13 +691,13 @@
         },
         "scheme": "file",
         "stats": {
-          "hash": "3f5307fe09182321c57856eab125ab8b",
-          "bytes": 7689,
+          "hash": "0cb4021315a4d51ccfaca7c45352050b",
+          "bytes": 7713,
           "fields": 5,
           "rows": 195
         }
       },
-      "time": 0.037,
+      "time": 0.031,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -900,7 +1030,7 @@
           "rows": 60
         }
       },
-      "time": 0.03,
+      "time": 0.025,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1471,7 +1601,7 @@
     }
   ],
   "stats": {
-    "errors": 31,
+    "errors": 37,
     "tasks": 4
   },
   "valid": false
