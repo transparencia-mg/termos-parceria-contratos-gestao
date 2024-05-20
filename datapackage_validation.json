@@ -71,7 +71,7 @@
           "rows": 303
         }
       },
-      "time": 0.035,
+      "time": 0.037,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -434,7 +434,7 @@
           "rows": 620
         }
       },
-      "time": 0.042,
+      "time": 0.047,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -781,7 +781,7 @@
           "rows": 207
         }
       },
-      "time": 0.043,
+      "time": 0.032,
       "scope": [
         "hash-count-error",
         "byte-count-error",
