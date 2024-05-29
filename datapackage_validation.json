@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.189,
+  "time": 0.203,
   "errors": [],
   "tasks": [
     {
@@ -65,13 +65,13 @@
         },
         "scheme": "file",
         "stats": {
-          "hash": "b9bc4c418921d0ed4a7cf5386a3b7b24",
-          "bytes": 19742,
+          "hash": "6f6339a39b69681205cfcc3ffb8295aa",
+          "bytes": 20090,
           "fields": 5,
-          "rows": 303
+          "rows": 306
         }
       },
-      "time": 0.034,
+      "time": 0.035,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -275,24 +275,29 @@
           "description": "The value does not match the schema type and format for this field."
         },
         {
+          "cell": "Não publicado.",
+          "fieldName": "URL_DOCUMENTO",
+          "fieldNumber": 4,
+          "fieldPosition": 4,
           "cells": [
-            "ID_INSTRUMENTO",
-            "TIPO_DOCUMENTO",
-            "DOCUMENTO",
-            "URL_DOCUMENTO",
-            "OBSERVACOES"
+            "CG_003/2019",
+            "Termo de Apostilamento",
+            "1º Termo de Apostilamento",
+            "Não publicado.",
+            ""
           ],
-          "rowNumber": 63,
-          "rowPosition": 64,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
+          "rowNumber": 24,
+          "rowPosition": 25,
+          "code": "type-error",
+          "name": "Type Error",
           "tags": [
             "#table",
-            "#row"
+            "#row",
+            "#cell"
           ],
-          "note": "not found in the lookup table",
-          "message": "Row at position \"64\" violates the foreign key: not found in the lookup table",
-          "description": "Values in the foreign key fields should exist in the reference table"
+          "note": "type is \"string/uri\"",
+          "message": "Type error in the cell \"Não publicado.\" in row \"25\" and field \"URL_DOCUMENTO\" at position \"4\": type is \"string/uri\"",
+          "description": "The value does not match the schema type and format for this field."
         },
         {
           "cells": [
@@ -322,8 +327,8 @@
             "URL_DOCUMENTO",
             "OBSERVACOES"
           ],
-          "rowNumber": 302,
-          "rowPosition": 303,
+          "rowNumber": 65,
+          "rowPosition": 66,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -331,32 +336,12 @@
             "#row"
           ],
           "note": "not found in the lookup table",
-          "message": "Row at position \"303\" violates the foreign key: not found in the lookup table",
-          "description": "Values in the foreign key fields should exist in the reference table"
-        },
-        {
-          "cells": [
-            "ID_INSTRUMENTO",
-            "TIPO_DOCUMENTO",
-            "DOCUMENTO",
-            "URL_DOCUMENTO",
-            "OBSERVACOES"
-          ],
-          "rowNumber": 303,
-          "rowPosition": 304,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "not found in the lookup table",
-          "message": "Row at position \"304\" violates the foreign key: not found in the lookup table",
+          "message": "Row at position \"66\" violates the foreign key: not found in the lookup table",
           "description": "Values in the foreign key fields should exist in the reference table"
         }
       ],
       "stats": {
-        "errors": 11
+        "errors": 10
       },
       "valid": false
     },
@@ -428,13 +413,13 @@
         },
         "scheme": "file",
         "stats": {
-          "hash": "ec77aad971a6ad9263f694bba57b1628",
-          "bytes": 122868,
+          "hash": "550bc1f7a96785fb3a289f35fc480289",
+          "bytes": 129390,
           "fields": 6,
-          "rows": 620
+          "rows": 633
         }
       },
-      "time": 0.041,
+      "time": 0.046,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -628,8 +613,8 @@
             "URL_DOCUMENTO",
             "OBSERVACOES"
           ],
-          "rowNumber": 617,
-          "rowPosition": 618,
+          "rowNumber": 334,
+          "rowPosition": 335,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -637,7 +622,7 @@
             "#row"
           ],
           "note": "not found in the lookup table",
-          "message": "Row at position \"618\" violates the foreign key: not found in the lookup table",
+          "message": "Row at position \"335\" violates the foreign key: not found in the lookup table",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -649,8 +634,8 @@
             "URL_DOCUMENTO",
             "OBSERVACOES"
           ],
-          "rowNumber": 618,
-          "rowPosition": 619,
+          "rowNumber": 335,
+          "rowPosition": 336,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -658,7 +643,7 @@
             "#row"
           ],
           "note": "not found in the lookup table",
-          "message": "Row at position \"619\" violates the foreign key: not found in the lookup table",
+          "message": "Row at position \"336\" violates the foreign key: not found in the lookup table",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -670,8 +655,8 @@
             "URL_DOCUMENTO",
             "OBSERVACOES"
           ],
-          "rowNumber": 619,
-          "rowPosition": 620,
+          "rowNumber": 336,
+          "rowPosition": 337,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -679,7 +664,7 @@
             "#row"
           ],
           "note": "not found in the lookup table",
-          "message": "Row at position \"620\" violates the foreign key: not found in the lookup table",
+          "message": "Row at position \"337\" violates the foreign key: not found in the lookup table",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -691,8 +676,8 @@
             "URL_DOCUMENTO",
             "OBSERVACOES"
           ],
-          "rowNumber": 620,
-          "rowPosition": 621,
+          "rowNumber": 337,
+          "rowPosition": 338,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -700,12 +685,96 @@
             "#row"
           ],
           "note": "not found in the lookup table",
-          "message": "Row at position \"621\" violates the foreign key: not found in the lookup table",
+          "message": "Row at position \"338\" violates the foreign key: not found in the lookup table",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "ID_INSTRUMENTO",
+            "TIPO_DOCUMENTO",
+            "DOCUMENTO",
+            "PERIODO_AVALIATORIO",
+            "URL_DOCUMENTO",
+            "OBSERVACOES"
+          ],
+          "rowNumber": 338,
+          "rowPosition": 339,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "not found in the lookup table",
+          "message": "Row at position \"339\" violates the foreign key: not found in the lookup table",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "ID_INSTRUMENTO",
+            "TIPO_DOCUMENTO",
+            "DOCUMENTO",
+            "PERIODO_AVALIATORIO",
+            "URL_DOCUMENTO",
+            "OBSERVACOES"
+          ],
+          "rowNumber": 339,
+          "rowPosition": 340,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "not found in the lookup table",
+          "message": "Row at position \"340\" violates the foreign key: not found in the lookup table",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "ID_INSTRUMENTO",
+            "TIPO_DOCUMENTO",
+            "DOCUMENTO",
+            "PERIODO_AVALIATORIO",
+            "URL_DOCUMENTO",
+            "OBSERVACOES"
+          ],
+          "rowNumber": 340,
+          "rowPosition": 341,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "not found in the lookup table",
+          "message": "Row at position \"341\" violates the foreign key: not found in the lookup table",
+          "description": "Values in the foreign key fields should exist in the reference table"
+        },
+        {
+          "cells": [
+            "ID_INSTRUMENTO",
+            "TIPO_DOCUMENTO",
+            "DOCUMENTO",
+            "PERIODO_AVALIATORIO",
+            "URL_DOCUMENTO",
+            "OBSERVACOES"
+          ],
+          "rowNumber": 341,
+          "rowPosition": 342,
+          "code": "foreign-key-error",
+          "name": "ForeignKey Error",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "not found in the lookup table",
+          "message": "Row at position \"342\" violates the foreign key: not found in the lookup table",
           "description": "Values in the foreign key fields should exist in the reference table"
         }
       ],
       "stats": {
-        "errors": 10
+        "errors": 14
       },
       "valid": false
     },
@@ -775,13 +844,13 @@
         },
         "scheme": "file",
         "stats": {
-          "hash": "cba3cc55b4c4fa02af30c6d6783892a0",
-          "bytes": 8293,
+          "hash": "266d7df3e94a2797538e98b4bf229b1d",
+          "bytes": 8345,
           "fields": 5,
-          "rows": 207
+          "rows": 209
         }
       },
-      "time": 0.031,
+      "time": 0.035,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -942,8 +1011,8 @@
             "REPASSE_ATUALIZADO",
             "OBSERVACOES"
           ],
-          "rowNumber": 196,
-          "rowPosition": 197,
+          "rowNumber": 194,
+          "rowPosition": 195,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -951,7 +1020,7 @@
             "#row"
           ],
           "note": "not found in the lookup table",
-          "message": "Row at position \"197\" violates the foreign key: not found in the lookup table",
+          "message": "Row at position \"195\" violates the foreign key: not found in the lookup table",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -962,8 +1031,8 @@
             "REPASSE_ATUALIZADO",
             "OBSERVACOES"
           ],
-          "rowNumber": 197,
-          "rowPosition": 198,
+          "rowNumber": 195,
+          "rowPosition": 196,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -971,7 +1040,7 @@
             "#row"
           ],
           "note": "not found in the lookup table",
-          "message": "Row at position \"198\" violates the foreign key: not found in the lookup table",
+          "message": "Row at position \"196\" violates the foreign key: not found in the lookup table",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -982,8 +1051,8 @@
             "REPASSE_ATUALIZADO",
             "OBSERVACOES"
           ],
-          "rowNumber": 202,
-          "rowPosition": 203,
+          "rowNumber": 204,
+          "rowPosition": 205,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -991,7 +1060,7 @@
             "#row"
           ],
           "note": "not found in the lookup table",
-          "message": "Row at position \"203\" violates the foreign key: not found in the lookup table",
+          "message": "Row at position \"205\" violates the foreign key: not found in the lookup table",
           "description": "Values in the foreign key fields should exist in the reference table"
         },
         {
@@ -1002,8 +1071,8 @@
             "REPASSE_ATUALIZADO",
             "OBSERVACOES"
           ],
-          "rowNumber": 203,
-          "rowPosition": 204,
+          "rowNumber": 205,
+          "rowPosition": 206,
           "code": "foreign-key-error",
           "name": "ForeignKey Error",
           "tags": [
@@ -1011,52 +1080,12 @@
             "#row"
           ],
           "note": "not found in the lookup table",
-          "message": "Row at position \"204\" violates the foreign key: not found in the lookup table",
-          "description": "Values in the foreign key fields should exist in the reference table"
-        },
-        {
-          "cells": [
-            "ID_INSTRUMENTO",
-            "ANO",
-            "REPASSE_PREVISTO",
-            "REPASSE_ATUALIZADO",
-            "OBSERVACOES"
-          ],
-          "rowNumber": 206,
-          "rowPosition": 207,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "not found in the lookup table",
-          "message": "Row at position \"207\" violates the foreign key: not found in the lookup table",
-          "description": "Values in the foreign key fields should exist in the reference table"
-        },
-        {
-          "cells": [
-            "ID_INSTRUMENTO",
-            "ANO",
-            "REPASSE_PREVISTO",
-            "REPASSE_ATUALIZADO",
-            "OBSERVACOES"
-          ],
-          "rowNumber": 207,
-          "rowPosition": 208,
-          "code": "foreign-key-error",
-          "name": "ForeignKey Error",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "not found in the lookup table",
-          "message": "Row at position \"208\" violates the foreign key: not found in the lookup table",
+          "message": "Row at position \"206\" violates the foreign key: not found in the lookup table",
           "description": "Values in the foreign key fields should exist in the reference table"
         }
       ],
       "stats": {
-        "errors": 11
+        "errors": 9
       },
       "valid": false
     },
@@ -1228,13 +1257,13 @@
         },
         "scheme": "file",
         "stats": {
-          "hash": "a05200f466ca696524b01f0b133358bd",
-          "bytes": 36636,
+          "hash": "ec5aabf730d16f8668279c7d1e93c8b1",
+          "bytes": 36161,
           "fields": 15,
-          "rows": 64
+          "rows": 62
         }
       },
-      "time": 0.024,
+      "time": 0.025,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1796,226 +1825,16 @@
           "note": "",
           "message": "Label \"url_documentos_termo_contrato\" in field URL_DOCUMENTOS_TERMO_CONTRATO at position \"15\" does not match the field name in the schema",
           "description": "One of the data source header does not match the field name defined in the schema."
-        },
-        {
-          "cell": "CG-009/2023",
-          "fieldName": "ID_INSTRUMENTO",
-          "fieldNumber": 1,
-          "fieldPosition": 1,
-          "cells": [
-            "CG-009/2023",
-            "Contrato de Gestão",
-            "009/2023",
-            "1691",
-            "Secretaria de Estado de Justiça e Segurança Pública",
-            "SEJUSP",
-            "Instituto Elo",
-            "IELO",
-            "07.514.913/0001-75",
-            "A cogestão de medida socioeducativa de internação, internação provisória e internação-sanção nos municípios do estado de Minas Gerais",
-            "",
-            "2023-12-06",
-            "2025-12-21",
-            "http://www.seguranca.mg.gov.br/socioeducativo/parcerias",
-            ""
-          ],
-          "rowNumber": 9,
-          "rowPosition": 10,
-          "code": "constraint-error",
-          "name": "Constraint Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "constraint \"pattern\" is \"(CG|TP)_\\d{3}/\\d{4}\"",
-          "message": "The cell \"CG-009/2023\" in row at position \"10\" and field \"ID_INSTRUMENTO\" at position \"1\" does not conform to a constraint: constraint \"pattern\" is \"(CG|TP)_\\d{3}/\\d{4}\"",
-          "description": "A field value does not conform to a constraint."
-        },
-        {
-          "cell": "",
-          "fieldName": "SITUACAO",
-          "fieldNumber": 11,
-          "fieldPosition": 11,
-          "cells": [
-            "CG-009/2023",
-            "Contrato de Gestão",
-            "009/2023",
-            "1691",
-            "Secretaria de Estado de Justiça e Segurança Pública",
-            "SEJUSP",
-            "Instituto Elo",
-            "IELO",
-            "07.514.913/0001-75",
-            "A cogestão de medida socioeducativa de internação, internação provisória e internação-sanção nos municípios do estado de Minas Gerais",
-            "",
-            "2023-12-06",
-            "2025-12-21",
-            "http://www.seguranca.mg.gov.br/socioeducativo/parcerias",
-            ""
-          ],
-          "rowNumber": 9,
-          "rowPosition": 10,
-          "code": "constraint-error",
-          "name": "Constraint Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "constraint \"required\" is \"True\"",
-          "message": "The cell \"\" in row at position \"10\" and field \"SITUACAO\" at position \"11\" does not conform to a constraint: constraint \"required\" is \"True\"",
-          "description": "A field value does not conform to a constraint."
-        },
-        {
-          "cell": "CG-010/2023",
-          "fieldName": "ID_INSTRUMENTO",
-          "fieldNumber": 1,
-          "fieldPosition": 1,
-          "cells": [
-            "CG-010/2023",
-            "Contrato de Gestão",
-            "010/2023",
-            "1691",
-            "Secretaria de Estado de Justiça e Segurança Pública",
-            "SEJUSP",
-            "Polo de Evolução de Medidas Socioeducativas",
-            "PEMSE",
-            "07.372.649/0001-82",
-            "A cogestão de medida socioeducativa de semiliberdade em municípios do estado de Minas Gerais",
-            "",
-            "2023-12-07",
-            "2026-04-14",
-            "http://www.seguranca.mg.gov.br/socioeducativo/parcerias",
-            ""
-          ],
-          "rowNumber": 10,
-          "rowPosition": 11,
-          "code": "constraint-error",
-          "name": "Constraint Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "constraint \"pattern\" is \"(CG|TP)_\\d{3}/\\d{4}\"",
-          "message": "The cell \"CG-010/2023\" in row at position \"11\" and field \"ID_INSTRUMENTO\" at position \"1\" does not conform to a constraint: constraint \"pattern\" is \"(CG|TP)_\\d{3}/\\d{4}\"",
-          "description": "A field value does not conform to a constraint."
-        },
-        {
-          "cell": "",
-          "fieldName": "SITUACAO",
-          "fieldNumber": 11,
-          "fieldPosition": 11,
-          "cells": [
-            "CG-010/2023",
-            "Contrato de Gestão",
-            "010/2023",
-            "1691",
-            "Secretaria de Estado de Justiça e Segurança Pública",
-            "SEJUSP",
-            "Polo de Evolução de Medidas Socioeducativas",
-            "PEMSE",
-            "07.372.649/0001-82",
-            "A cogestão de medida socioeducativa de semiliberdade em municípios do estado de Minas Gerais",
-            "",
-            "2023-12-07",
-            "2026-04-14",
-            "http://www.seguranca.mg.gov.br/socioeducativo/parcerias",
-            ""
-          ],
-          "rowNumber": 10,
-          "rowPosition": 11,
-          "code": "constraint-error",
-          "name": "Constraint Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "constraint \"required\" is \"True\"",
-          "message": "The cell \"\" in row at position \"11\" and field \"SITUACAO\" at position \"11\" does not conform to a constraint: constraint \"required\" is \"True\"",
-          "description": "A field value does not conform to a constraint."
-        },
-        {
-          "cell": "TP-053/2023",
-          "fieldName": "ID_INSTRUMENTO",
-          "fieldNumber": 1,
-          "fieldPosition": 1,
-          "cells": [
-            "TP-053/2023",
-            "Termo de Parceria",
-            "053/2023",
-            "2181",
-            "Fundação Clóvis Salgado",
-            "FCS",
-            "Associação Pró-Cultura e Promoção das Artes",
-            "APPA",
-            "70.945.209/0001-03",
-            "Apoio ao funcionamento e as atividades artísticas e culturais do Palácio da Liberdade",
-            "Vigente",
-            "2023-12-28",
-            "2028-12-27",
-            "https://fcs.mg.gov.br/institucional/contrato-de-gestao-termos-de-parceria/",
-            ""
-          ],
-          "rowNumber": 63,
-          "rowPosition": 64,
-          "code": "constraint-error",
-          "name": "Constraint Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "constraint \"pattern\" is \"(CG|TP)_\\d{3}/\\d{4}\"",
-          "message": "The cell \"TP-053/2023\" in row at position \"64\" and field \"ID_INSTRUMENTO\" at position \"1\" does not conform to a constraint: constraint \"pattern\" is \"(CG|TP)_\\d{3}/\\d{4}\"",
-          "description": "A field value does not conform to a constraint."
-        },
-        {
-          "cell": "TP-054/2023",
-          "fieldName": "ID_INSTRUMENTO",
-          "fieldNumber": 1,
-          "fieldPosition": 1,
-          "cells": [
-            "TP-054/2023",
-            "Termo de Parceria",
-            "054/2023",
-            "1481",
-            "Secretaria de Estado de Desenvolvimento Social",
-            "SEDESE",
-            "Associação Mineira do Paradesporto",
-            "AMP",
-            "29.335.005/0001-57",
-            "Apoio à realização da política de promoção ao direito de acesso ao esporte educacional e paradesportivo em Minas Gerais.",
-            "Vigente",
-            "2023-12-28",
-            "2028-12-27",
-            "https://social.mg.gov.br/esportes/editais-e-termos-de-parceria",
-            ""
-          ],
-          "rowNumber": 64,
-          "rowPosition": 65,
-          "code": "constraint-error",
-          "name": "Constraint Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "constraint \"pattern\" is \"(CG|TP)_\\d{3}/\\d{4}\"",
-          "message": "The cell \"TP-054/2023\" in row at position \"65\" and field \"ID_INSTRUMENTO\" at position \"1\" does not conform to a constraint: constraint \"pattern\" is \"(CG|TP)_\\d{3}/\\d{4}\"",
-          "description": "A field value does not conform to a constraint."
         }
       ],
       "stats": {
-        "errors": 21
+        "errors": 15
       },
       "valid": false
     }
   ],
   "stats": {
-    "errors": 53,
+    "errors": 48,
     "tasks": 4
   },
   "valid": false
