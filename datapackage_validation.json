@@ -419,7 +419,7 @@
           "rows": 633
         }
       },
-      "time": 0.05,
+      "time": 0.051,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -850,7 +850,7 @@
           "rows": 209
         }
       },
-      "time": 0.037,
+      "time": 0.038,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -1263,7 +1263,7 @@
           "rows": 62
         }
       },
-      "time": 0.031,
+      "time": 0.03,
       "scope": [
         "hash-count-error",
         "byte-count-error",
