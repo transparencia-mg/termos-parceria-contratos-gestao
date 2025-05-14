@@ -28,6 +28,6 @@ Todas as contribuições são bem vindas. Alguns exemplos são:
 
 Além disso, fique a vontade para utilizar os demais canais oficiais de atendimento do Poder Executivo Estadual:
 
-- [Fale Conosco]([https://www.mg.gov.br/planejamento/pagina/atendimento/fale-conosco/fale-conosco](https://www.mg.gov.br/pro-brumadinho/pagina/fale-com-o-comite): Dúvidas
+- [Fale Conosco]([https://www.mg.gov.br/planejamento/pagina/atendimento/fale-conosco/fale-conosco]): Dúvidas
 - [Manifestações de Ouvidoria](http://www.ouvidoriageral.mg.gov.br/): Denúncia, Reclamação, Crítica, Elogio ou Sugestões
 - [Pedido de Acesso à Informação](http://www.acessoainformacao.mg.gov.br/sistema/site/index.html): Acesso às informações dos órgãos e entidades estaduais que não estejam publicamente disponíveis.
